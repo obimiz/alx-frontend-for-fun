@@ -669,7 +669,8 @@
     .fieldset{
 	display: flex;
 	flex-direction: column;
-	border: none;
-	padding: 0 0 2rem;
 	justify-content: flex-start;
+	border: 0;
+	padding: 0 0 2rem;
+	
     }
