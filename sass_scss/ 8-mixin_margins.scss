@@ -1,17 +1,14 @@
-// styles.scss
-
-// Define the mixin for setting left and right margins
+/* Define the mixin for setting left and right margins */
 @mixin set-margins($left-right-margin) {
 	margin-left: $left-right-margin;
 	margin-right: $left-right-margin;
       }
       
-      // Apply the mixin to the body and div tags
       body {
-	@include set-margins(10px); // Set margin-left and margin-right to 10px for body
+	@include set-margins(10px); 
       }
       
       div {
-	@include set-margins(15px); // Set margin-left and margin-right to 15px for div
+	@include set-margins(15px);
       }
       
