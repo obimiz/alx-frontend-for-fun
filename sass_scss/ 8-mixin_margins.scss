@@ -1,14 +1,14 @@
-/* Define the mixin for setting left and right margins */
-@mixin set-margins($left-right-margin) {
-	margin-left: $left-right-margin;
-	margin-right: $left-right-margin;
+@mixin horizontal-margin($left, $right) {
+	margin-left: $left;
+	margin-right: $right;
       }
       
+      // Apply styles to body
       body {
-	@include set-margins(10px); 
+	@include horizontal-margin(10px, 10px);
       }
       
+      // Apply styles to div
       div {
-	@include set-margins(15px);
+	@include horizontal-margin(15px, 15px);
       }
-      
